@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+    'Publish Version': 'apm-publish:version'
+    'Publish Major': 'apm-publish:major'
+    'Publish Minor': 'apm-publish:minor'
+    'Publish Patch': 'apm-publish:patch'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'apm-publish'
+      'submenu': [
+        { 'label': 'Publish Version', 'command': 'apm-publish:version' }
+        { 'label': 'Publish Major', 'command': 'apm-publish:major' }
+        { 'label': 'Publish Minor', 'command': 'apm-publish:minor' }
+        { 'label': 'Publish Patch', 'command': 'apm-publish:patch' }
+      ]
+    ]
+  }
+]

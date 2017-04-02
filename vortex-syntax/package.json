@@ -1,0 +1,23 @@
+{
+  "name": "vortex-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A dark theme I use for Scala, Python, and various ECMAScripts. Nothing special.",
+  "keywords": [
+    "syntax",
+    "theme",
+    "dark",
+    "scala",
+    "string",
+    "comments",
+    "different",
+    "functional",
+    "python",
+    "ECMAScript"
+  ],
+  "repository": "https://atom.io/packages/vawl/vortex-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
